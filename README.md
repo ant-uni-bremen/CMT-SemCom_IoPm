@@ -27,3 +27,34 @@ CMT-SemCom_IoPm/
 ├── CMT_SemCom_MNIST_EP/ # MNIST with explicit priors
 └── CMT_SemCom_MNIST_IoPm/ # MNIST with proposed IoPm
 
+
+Each folder is **self-contained** and can be executed independently.
+
+---
+
+## Folder Descriptions
+
+### 1. `CMT_SemCom_CIFAR_EP`
+**CIFAR-10 | Explicit Priors (EP)**
+
+This folder implements cooperative multi-task semantic communication on the **CIFAR-10 dataset** using **widely adopted explicit priors**, namely:
+
+- Standard Gaussian prior  
+- Log-uniform prior  
+
+#### Prior Selection
+
+The prior is selected inside the following file:
+
+CUSUModel.py
+
+
+- To use the **standard Gaussian prior**, uncomment the following line:
+```python
+# kl = gaussian_kl_divergence(x2_mu, x2_ln_var)
+
+
+To use the log-uniform prior, comment out the Gaussian KL term and enable the corresponding log-uniform implementation in the same file.
+
+Important: Only one prior should be active at a time.
+
