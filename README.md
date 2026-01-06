@@ -1,4 +1,4 @@
-# Cooperative Multi-Task Semantic Communication with Implicit Optimal Priors (IoPm)
+# 🚀 Cooperative Multi-Task Semantic Communication with Implicit Optimal Priors (IoPm)
 
 📄 This repository contains the **official simulation codes** for the published journal paper:
 
