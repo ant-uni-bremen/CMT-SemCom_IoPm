@@ -102,21 +102,26 @@ This folder mirrors `CMT_SemCom_CIFAR_IoPm`, but for the **MNIST dataset**.
 Each folder contains **five Python files**, organized as follows:
 
 - `datasets.py`
+  
    Preprocesses the datasets for **multi-label, multi-task learning**.
    The task definitions are modular, allowing readers to easily modify or redefine tasks.
 
 - `CUSUModel.py`
+  
   Defines the **encoder–decoder architectures, loss functions, training loop, and evaluation loop**.
   In addition to the cooperative multi-task architecture, this file also includes a **single-task encoder–decoder**, which is used to compare single-task processing against cooperative multi-task learning.
 
 - `utils.py`
+  
   Contains required utility functions, including the implementation of the **machine-learning-based logistic regression (LR).
   The noise power of the communication channel can also be configured here.
 
 - `resultPloting.py`
+  
   Used to plot and visualize simulation results.
 
 - `main.py`
+  
   Specifies the **training configuration**, such as:
   - Number of iterations
   - Learning rate
