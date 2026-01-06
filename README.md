@@ -4,8 +4,10 @@
 
 > **Semantic Communication for Cooperative Multi-Tasking Over Rate-Limited Wireless Channels With Implicit Optimal Prior**  
 > *(A. Halimi Razlighi, C. Bockelmann, A. Dekorsy)*
+> 
 > *Published in: IEEE Open Journal of the Communications Society ( Volume: 6)*
 > *Date of Publication: 02 October 2025*
+> 
 > *https://doi.org/10.1109/OJCOMS.2025.3617156*
 
 In this work, we aim to tackle the rate-limit constraint, represented through the Kullback-Leibler (KL) divergence, by employing the density ratio trick alongside the implicit optimal prior method (IoPm). By applying the IoPm to our multi-task processing framework, we propose a hybrid-learning approach that combines deep neural networks with kernelized-parametric machine learning methods, enabling a robust solution for the CMT-SemCom.
@@ -150,12 +152,21 @@ The results presented in the paper are obtained by:
 **Please do not forget to cite us when you use the code/paper:**
 
 @ARTICLE{11190017,
+
   author={Halimi Razlighi, Ahmad and Bockelmann, Carsten and Dekorsy, Armin},
-  journal={IEEE Open Journal of the Communications Society}, 
+  
+  journal={IEEE Open Journal of the Communications Society},
+  
   title={Semantic Communication for Cooperative Multi-Tasking Over Rate-Limited Wireless Channels With Implicit Optimal Prior}, 
+  
   year={2025},
+  
   volume={6},
+  
   number={},
+  
   pages={8523-8538},
+  
   keywords={Multitasking;Semantic communication;Wireless communication;Artificial neural networks;Knowledge graphs;Accuracy;Probabilistic logic;Linear programming;Transmitters;Symbols;Cooperative multi-tasking;deep learning;hybrid learning;information theory;implicit optimal prior;parametric methods;semantic communication},
+  
   doi={10.1109/OJCOMS.2025.3617156}}
