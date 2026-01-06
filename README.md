@@ -22,11 +22,11 @@ The simulation results reported in the paper are generated using the codes provi
 The repository is organized into **four main folders**, corresponding to different datasets and prior modeling approaches:
 
 CMT-SemCom_IoPm/
-│
-├── CMT_SemCom_CIFAR_EP/ # CIFAR-10 with explicit priors
-├── CMT_SemCom_CIFAR_IoPm/ # CIFAR-10 with proposed IoPm
-├── CMT_SemCom_MNIST_EP/ # MNIST with explicit priors
-└── CMT_SemCom_MNIST_IoPm/ # MNIST with proposed IoPm
+- `CMT_SemCom_CIFAR_EP/` – CIFAR-10 with explicit priors  
+- `CMT_SemCom_CIFAR_IoPm/` – CIFAR-10 with proposed IoPm  
+- `CMT_SemCom_MNIST_EP/` – MNIST with explicit priors  
+- `CMT_SemCom_MNIST_IoPm/` – MNIST with proposed IoPm  
+
 
 
 Each folder is **self-contained** and can be executed independently.
