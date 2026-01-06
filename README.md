@@ -52,11 +52,28 @@ CUSUModel.py
 - To use the **standard Gaussian prior**, uncomment the following line:
 ```python
 # kl = gaussian_kl_divergence(x2_mu, x2_ln_var)
+```
 
 
 To use the log-uniform prior, comment out the Gaussian KL term and enable the corresponding log-uniform implementation in the same file.
 
 Important: Only one prior should be active at a time.
+
+2. CMT_SemCom_CIFAR_IoPm
+
+CIFAR-10 | Implicit Optimal Prior Method (IoPm)
+
+This folder contains the implementation of the proposed Implicit Optimal Prior Method (IoPm) for multi-task cooperative semantic communication.
+
+Key characteristics:
+
+No explicit prior assumption (e.g., Gaussian or log-uniform)
+
+The optimal prior is learned implicitly from data
+
+Fully aligned with the proposed method described in the paper
+
+This folder is used to generate the IoPm-based results for the CIFAR-10 experiments.
 
 ## 📎 Citation
 **Please do not forget to cite us when you use the code/paper:**
