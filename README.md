@@ -17,7 +17,7 @@ The codes implement and evaluate **cooperative multi-task semantic communication
 The simulation results reported in the paper are generated using the codes provided in this repository.
 
 <p align="center">
-  <img src="HybridLearning-CMT-SemCom.png" alt="CMT-SemCom" width="650">
+  <img src="HybridLearning-CMT-SemCom.png" alt="CMT-SemCom" width="450">
   <br>
   <em>Figure 1: Illustration of the proposed hybrid-learning approach for CMT-SemCom by IoPm.</em>
 </p>
