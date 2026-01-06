@@ -4,6 +4,7 @@ This repository contains the **official simulation codes** for the published jou
 
 > **Semantic Communication for Cooperative Multi-Tasking Over Rate-Limited Wireless Channels With Implicit Optimal Prior**  
 > *(A. Halimi Razlighi, C. Bockelmann, A. Dekorsy)*
+
 > *Published in: IEEE Open Journal of the Communications Society ( Volume: 6)*
 > *Date of Publication: 02 October 2025*
 > *https://doi.org/10.1109/OJCOMS.2025.3617156*
