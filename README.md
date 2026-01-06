@@ -46,7 +46,7 @@ This folder implements cooperative multi-task semantic communication on the **CI
 
 The prior is selected inside the following file:
 
-CUSUModel.py
+```CUSUModel.py```
 
 
 - To use the **standard Gaussian prior**, uncomment the following line:
@@ -54,26 +54,57 @@ CUSUModel.py
 # kl = gaussian_kl_divergence(x2_mu, x2_ln_var)
 ```
 
+- To use the log-uniform prior, comment out the Gaussian KL term and enable the corresponding log-uniform implementation in the same file.
 
-To use the log-uniform prior, comment out the Gaussian KL term and enable the corresponding log-uniform implementation in the same file.
+⚠️ **Important**: Only one prior should be active at a time.
 
-Important: Only one prior should be active at a time.
+### 2. `CMT_SemCom_CIFAR_IoPm`
+**CIFAR-10 | Implicit Optimal Prior Method (IoPm)**
 
-2. CMT_SemCom_CIFAR_IoPm
-
-CIFAR-10 | Implicit Optimal Prior Method (IoPm)
-
-This folder contains the implementation of the proposed Implicit Optimal Prior Method (IoPm) for multi-task cooperative semantic communication.
+This folder contains the implementation of the proposed IoPm for multi-tasking.
 
 Key characteristics:
 
-No explicit prior assumption (e.g., Gaussian or log-uniform)
-
-The optimal prior is learned implicitly from data
-
-Fully aligned with the proposed method described in the paper
+- No explicit prior assumption (e.g., Gaussian or log-uniform)
+- The optimal prior is learned implicitly from data using **logistic regression (LR)**
+- Fully aligned with the proposed method described in the paper
 
 This folder is used to generate the IoPm-based results for the CIFAR-10 experiments.
+
+### 3. `CMT_SemCom_MNIST_EP`
+**MNIST | EP**
+
+This folder mirrors the functionality of `CMT_SemCom_CIFAR_EP`, but uses the **MNIST dataset** instead.
+
+- Supports standard Gaussian and log-uniform priors
+- Prior selection is performed via `CUSUModel.py`
+- Used for baseline comparisons on MNIST
+
+### 4. `CMT_SemCom_MNIST_IoPm`
+**MNIST | IoPm**
+
+This folder mirrors `CMT_SemCom_CIFAR_IoPm`, but for the **MNIST dataset**.
+
+- Implements the proposed IoPm approach
+- Used to generate MNIST results reported in the paper
+
+## ▶️ How to Run the Code
+
+Each folder is **independently executable**.
+
+1. Navigate to the desired folder:
+```cd CMT_SemCom_CIFAR_EP```
+2. Run the main
+```python main.py```
+
+
+## 📊 Reproducing the Paper Results
+
+The results presented in the paper are obtained by:
+- Running simulations in the **EP** folders
+- Running simulations in the corresponding **IoPm** folders
+- Combining and comparing the outputs.
+- 
 
 ## 📎 Citation
 **Please do not forget to cite us when you use the code/paper:**
