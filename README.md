@@ -1,10 +1,9 @@
 # Cooperative Multi-Task Semantic Communication with Implicit Optimal Priors (IoPm)
 
-This repository contains the **official simulation codes** for the published journal paper:
+📄 This repository contains the **official simulation codes** for the published journal paper:
 
 > **Semantic Communication for Cooperative Multi-Tasking Over Rate-Limited Wireless Channels With Implicit Optimal Prior**  
 > *(A. Halimi Razlighi, C. Bockelmann, A. Dekorsy)*
-
 > *Published in: IEEE Open Journal of the Communications Society ( Volume: 6)*
 > *Date of Publication: 02 October 2025*
 > *https://doi.org/10.1109/OJCOMS.2025.3617156*
@@ -17,7 +16,7 @@ The simulation results reported in the paper are generated using the codes provi
 
 ---
 
-## Repository Structure
+## 📂 Repository Structure
 
 The repository is organized into **four main folders**, corresponding to different datasets and prior modeling approaches:
 
@@ -59,3 +58,16 @@ To use the log-uniform prior, comment out the Gaussian KL term and enable the co
 
 Important: Only one prior should be active at a time.
 
+## 📎 Citation
+**Please do not forget to cite us when you use the code/paper:**
+
+@ARTICLE{11190017,
+  author={Halimi Razlighi, Ahmad and Bockelmann, Carsten and Dekorsy, Armin},
+  journal={IEEE Open Journal of the Communications Society}, 
+  title={Semantic Communication for Cooperative Multi-Tasking Over Rate-Limited Wireless Channels With Implicit Optimal Prior}, 
+  year={2025},
+  volume={6},
+  number={},
+  pages={8523-8538},
+  keywords={Multitasking;Semantic communication;Wireless communication;Artificial neural networks;Knowledge graphs;Accuracy;Probabilistic logic;Linear programming;Transmitters;Symbols;Cooperative multi-tasking;deep learning;hybrid learning;information theory;implicit optimal prior;parametric methods;semantic communication},
+  doi={10.1109/OJCOMS.2025.3617156}}
